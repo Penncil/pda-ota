@@ -14,16 +14,16 @@ Tutorial for PDA-OTA
 | Step 1   | [sign up account](https://github.com/Penncil/pda-ota#step-1) if not yet |       |
 |          | [create new project](https://github.com/Penncil/pda-ota#step-2) and [invite](xxx) Collaborating site to join]|                            |
 |          |                                          | [join project](https://github.com/Penncil/pda-ota#step-2), [sign up account](https://github.com/Penncil/pda-ota#step-1) if not yet|
-| Step 2.1 | [create control file](https://github.com/Penncil/pda-ota#step-31-lead-site) |                                 |
-| Step 2.2 | [upload control file](https://github.com/Penncil/pda-ota#step-32-lead-site) |                               |
-| Step 2.3 |                                        | [download control file](https://github.com/Penncil/pda-ota#step-33-collaborating-site)            |
-| Step 2.4 |                                       | [run pda() in R to get aggregated data](https://github.com/Penncil/pda-ota#step-34-collborating-site) |
-| Step 2.5 |                                      | [upload aggregated data](https://github.com/Penncil/pda-ota#step-35-collaborating-site)           |
-| Step 2.6 | [download aggregated data](https://github.com/Penncil/pda-ota#step-41-lead-site)  from all sites |                              |
-| Step 2.7 | [run pda() in R to perform intermediate analysis](https://github.com/Penncil/pda-ota#step-42-lead-site) |                            |
-|          | run pda() in R to [update control file](xxx)   |         |
+| Step 2.1 | [create control file](https://github.com/Penncil/pda-ota#step-21-create-control-file-lead-site) |                                 |
+| Step 2.2 | [upload control file](https://github.com/Penncil/pda-ota#step-22-upload-control-file-lead-site) |                               |
+| Step 2.3 |                                        | [download control file](https://github.com/Penncil/pda-ota#step-23-download-control-file-collborating-site)            |
+| Step 2.4 |                                       | [run pda() in R to get aggregated data](https://github.com/Penncil/pda-ota#step-24-run-pda-collborating-site) |
+| Step 2.5 |                                      | [upload aggregated data](https://github.com/Penncil/pda-ota#step-25-upload-aggregated-ata-collaborating-site)           |
+| Step 2.6 | [download aggregated data](https://github.com/Penncil/pda-ota#step-26-download-aggregated-data-lead-site)  from all sites |                              |
+| Step 2.7 | [run pda() in R to perform intermediate analysis](https://github.com/Penncil/pda-ota#step-27-run-pda-lead-site) |                            |
+|          | run pda() in R to [update control file](https://github.com/Penncil/pda-ota#step-27-run-pda-lead-site)   |         |
 |          | iterate Steps 2.2 - 2.7                   |     iterate Steps 2.3 - 2.5           |
-| Step 3   | [Run pda() get final results](https://github.com/Penncil/pda-ota#step-5-lead-site)              |                                  |
+| Step 3   | [Run pda() get final results](https://github.com/Penncil/pda-ota#step-3-final-results-lead-site)              |                                  |
 |          | Close project                            |                                  |
 
 
