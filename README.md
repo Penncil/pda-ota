@@ -29,7 +29,7 @@ Tutorial for PDA-OTA
 
 ## Detailed instructions
 
-### Step 1
+### Step 1: Sign up account
 
 Link to sign up account: http://18.221.87.50:5000/login
 
@@ -43,7 +43,7 @@ For collaborating site, join new project by clicking "+Join project". (NOTE: To 
 
 ------------------------
 
-### Step 2.1
+### Step 2.1: Create control file (lead site)
 
 
 1. Install pda package, further instructions can be found here: https://github.com/Penncil/pda#how-to-install-the-pda-package.
@@ -68,7 +68,7 @@ pda(site_id = '<lead site name>', control = control, dir = getwd())
 
 ------------------------
 
-### Step 3.2 (Lead site)
+### Step 2.2: Upload control file (lead site)
 
 Please upload the control.json file from Step 3.1 on pda-ota website in your project.
 
@@ -76,7 +76,7 @@ Please upload the control.json file from Step 3.1 on pda-ota website in your pro
 ------------------------
 
 
-### Step 3.3 (Collaborating site)
+### Step 2.3: Download control file (collborating site)
 
 Please login to pda-ota website and download the control.json file in your project.
 
@@ -84,7 +84,7 @@ Please login to pda-ota website and download the control.json file in your proje
 ------------------------
 
 
-### Step 3.4 (Collborating site)
+### Step 2.4: Run pda() (Collborating site)
 
 To get aggregated data, please run:
 
@@ -98,23 +98,23 @@ Note: please install pda() package (instructions can be found [here](https://git
 ------------------------
 
 
-### Step 3.5 (Collaborating site)
+### Step 2.5: Upload aggregated ata (collaborating site)
 
 Please upload the aggregated data on pda-ota website in your project.
 
 
 ------------------------
 
-### Step 4.1 (Lead site)
+### Step 2.6: Download aggregated data (Lead site)
 
 Please download aggregated data uploaded data by all collaborating sites.
 
 ------------------------
 
 
-### Step 4.2 (Lead site)
+### Step 2.7: Run pda() (Lead site)
 
-To update control file, please run the following R code:
+To perform intermediate analysis and update control file, please run the following R code:
 
 ```r
 pda(site_id = '<lead site name>', ipdata = <input data>, dir=getwd())
@@ -122,7 +122,7 @@ pda(site_id = '<lead site name>', ipdata = <input data>, dir=getwd())
 
 ------------------------
 
-### Step 5 (Lead site)
+### Step 3: Final results (Lead site)
 
 To get final results, please run the following R code:
 
