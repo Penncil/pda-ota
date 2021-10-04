@@ -11,9 +11,9 @@ Tutorial for PDA-OTA
 |          | Lead site                                | Collaborating site               |
 |----------|------------------------------------------|----------------------------------|
 | Step 0   | project proposal (e.g. [DLMM](https://github.com/ohdsi-studies/DistributedLMM/blob/master/extras/Lossless%20Distributed%20Linear%20Mixed%20Model.docx)) | project proposal                 |
-| Step 1   | [sign up account](https://github.com/Penncil/pda-ota#step-1) if not yet |       |
-|          | [create new project](https://github.com/Penncil/pda-ota#step-2) and [invite](xxx) Collaborating site to join]|                            |
-|          |                                          | [join project](https://github.com/Penncil/pda-ota#step-2), [sign up account](https://github.com/Penncil/pda-ota#step-1) if not yet|
+| Step 1   | [sign up account](https://github.com/Penncil/pda-ota#step-1-sign-up-account) if not yet |       |
+|          | [create new project](https://github.com/Penncil/pda-ota#create-new-project) and invite Collaborating site to join]|                            |
+|          |                                          | [join project](https://github.com/Penncil/pda-ota#join-a-project), [sign up account](https://github.com/Penncil/pda-ota#step-1-sign-up-account) if not yet|
 | Step 2.1 | [create control file](https://github.com/Penncil/pda-ota#step-21-create-control-file-lead-site) |                                 |
 | Step 2.2 | [upload control file](https://github.com/Penncil/pda-ota#step-22-upload-control-file-lead-site) |                               |
 | Step 2.3 |                                        | [download control file](https://github.com/Penncil/pda-ota#step-23-download-control-file-collborating-site)            |
