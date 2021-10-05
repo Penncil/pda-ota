@@ -64,9 +64,11 @@ control <- list(project_name = 'Lung cancer study',
                 upload_date = as.character(Sys.time()) )
 
 ## run in local directory:
+## dir can be set up to any directory with path instead of using getwd(), which is the current working directory. 
 pda(site_id = '<lead site name>', control = control, dir = getwd())
 ``` 
-NOTE: 
+
+
 ------------------------
 
 ### Step 2.2: Upload control file (lead site)
