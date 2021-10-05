@@ -60,13 +60,13 @@ control <- list(project_name = 'Lung cancer study',
                 outcome = "status",
                 variables = '<e.g., c('age', 'sex')>',
                 optim_maxit = 100,
-                lead_site = '<site name>',
+                lead_site = '<lead site name>',
                 upload_date = as.character(Sys.time()) )
 
 ## run in local directory:
 pda(site_id = '<lead site name>', control = control, dir = getwd())
 ``` 
-
+NOTE: 
 ------------------------
 
 ### Step 2.2: Upload control file (lead site)
