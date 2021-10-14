@@ -32,7 +32,7 @@ Tutorial for PDA-OTA
 
 ### Step 1: Sign up account
 
-Link to sign up account: http://18.221.87.50:5000/login
+Link to sign up account: http://pda-ota.pdamethods.org/login
 
 #### Create new project
 
