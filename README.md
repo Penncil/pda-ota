@@ -2,24 +2,24 @@ Tutorial for PDA-OTA
 ==============================================
 
 
-<!---## Responsibilities for lead and collaborating sites--->
+<!---## Responsibilities for lead and participanting sites--->
 <!---![](pipeline.png)--->
 
 
 ## How to run PDA-OTA?
 
-|          | Lead site                                | Collaborating site               |
+|          | Lead site                                | Participanting site               |
 |----------|------------------------------------------|----------------------------------|
 | Step 0   | project proposal (e.g. [DLMM](https://drive.google.com/file/d/1hcvmoQe8jweaWOE7robNn2GkroYI9d24/view)) | project proposal                 |
 | Step 1   | [sign up account](https://github.com/Penncil/pda-ota#step-1-sign-up-account) if not yet |       |
 |          | [create new project](https://github.com/Penncil/pda-ota#create-new-project) |                            |
-|          | invite Collaborating site to join |    | 
+|          | invite Participanting site to join |    | 
 |          |                                          | [join project](https://github.com/Penncil/pda-ota#join-a-project), [sign up account](https://github.com/Penncil/pda-ota#step-1-sign-up-account) if not yet|
 | Step 2.1 | [create control file](https://github.com/Penncil/pda-ota#step-21-create-control-file-lead-site) |                                 |
 | Step 2.2 | [upload control file](https://github.com/Penncil/pda-ota#step-22-upload-control-file-lead-site) |                               |
 | Step 2.3 |                                        | [download control file](https://github.com/Penncil/pda-ota#step-23-download-control-file-collborating-site)            |
 | Step 2.4 |                                       | [run pda() in R to get aggregated data](https://github.com/Penncil/pda-ota#step-24-run-pda-collborating-site) |
-| Step 2.5 |                                      | [upload aggregated data](https://github.com/Penncil/pda-ota#step-25-upload-aggregated-ata-collaborating-site)           |
+| Step 2.5 |                                      | [upload aggregated data](https://github.com/Penncil/pda-ota#step-25-upload-aggregated-ata-participanting-site)           |
 | Step 2.6 | [download aggregated data](https://github.com/Penncil/pda-ota#step-26-download-aggregated-data-lead-site)  from all sites |                              |
 | Step 2.7 | [run pda() in R to perform intermediate analysis](https://github.com/Penncil/pda-ota#step-27-run-pda-lead-site) |                            |
 |          | run pda() in R to [update control file](https://github.com/Penncil/pda-ota#step-27-run-pda-lead-site)   |         |
@@ -40,7 +40,7 @@ For lead site, create new project by clicking "+New project".
 
 #### Join a project
 
-For collaborating site, join new project by clicking "+Join project". (NOTE: To join an exising project, project ID and title are required, which can be found in the invite email or please contact the lead site for these information.)
+For participanting site, join new project by clicking "+Join project". (NOTE: To join an exising project, project ID and title are required, which can be found in the invite email or please contact the lead site for these information.)
 
 ------------------------
 
@@ -53,7 +53,7 @@ For collaborating site, join new project by clicking "+Join project". (NOTE: To 
 ```r
 control <- list(project_name = 'Lung cancer study',
                 step = 'initialize',
-                sites = '<lead site name, collaborating site 1, collaborating site 2, etc>',
+                sites = '<lead site name, participanting site 1, participanting site 2, etc>',
                 heterogeneity = FALSE,
                 model = '<model name, e.g., ODAL, ODAC, dPQL>',
                 family = 'binomial',
@@ -92,7 +92,7 @@ Please login to pda-ota website and download the control.json file in your proje
 To get aggregated data, please run:
 
 ```r
-pda(site_id = '<collaborating site 1>', ipdata = <input data>, dir=getwd())
+pda(site_id = '<participanting site 1>', ipdata = <input data>, dir=getwd())
 ```
 
 Note: please install pda() package (instructions can be found [here](https://github.com/Penncil/pda#how-to-install-the-pda-package.)) before run the code above.
@@ -101,7 +101,7 @@ Note: please install pda() package (instructions can be found [here](https://git
 ------------------------
 
 
-### Step 2.5: Upload aggregated ata (collaborating site)
+### Step 2.5: Upload aggregated ata (participanting site)
 
 Please upload the aggregated data on pda-ota website in your project.
 
@@ -110,7 +110,7 @@ Please upload the aggregated data on pda-ota website in your project.
 
 ### Step 2.6: Download aggregated data (Lead site)
 
-Please download aggregated data uploaded data by all collaborating sites.
+Please download aggregated data uploaded data by all participanting sites.
 
 ------------------------
 
